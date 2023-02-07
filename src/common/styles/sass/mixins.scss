@@ -1,0 +1,23 @@
+@import "./variables";
+@mixin text($fontFamily, $fontSize, $fontWeight, $lineHeight){
+  font-family: $fontFamily, sans-serif;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  line-height: $lineHeight;
+  color: $textColor;
+}
+@mixin bg () {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@mixin bg_img() {
+  @include bg();
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  filter: drop-shadow(16px 16px 20px #ffffff) invert(75%);
+  right: 65px;
+  top: 25px;
+}

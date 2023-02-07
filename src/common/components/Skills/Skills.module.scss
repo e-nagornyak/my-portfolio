@@ -1,0 +1,32 @@
+@import "../../styles/sass/variables.scss";
+@import "../../styles/sass/mixins.scss";
+
+.skillsBlock {
+  min-height: 70vh;
+  padding: 50px 0;
+  border-bottom: 1px solid white;
+  position: relative;
+}
+
+.skillsContainer {
+  min-height: 55vh;
+}
+
+.title {
+  background-color: darkgrey;
+}
+
+.skills {
+  padding: 20px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media screen and (max-width: 430px) {
+  .skills {
+    gap: 5px;
+  }
+}

@@ -1,0 +1,25 @@
+.remoteWorkBlock {
+    padding: 50px 0;
+    min-height: 130px;
+}
+
+.remoteWork {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 130px;
+}
+
+.title {
+    margin: 0 10px;
+    text-align: center;
+    background-color: darkgray;
+}
+
+.btn {
+    font-size: 22px;
+    padding: 5px 20px;
+    background-color: darkgray;
+    font-weight: bold;
+    border: none;
+}

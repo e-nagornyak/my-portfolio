@@ -1,0 +1,40 @@
+.wrapper {
+  display: flex;
+  width: 20vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.img__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border: 2px solid;
+  border-radius: 50%;
+
+  img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.title_wrapper {
+  width: 100px;
+}
+
+
+.title {
+  margin: 0;
+  font-size: 20px;
+}

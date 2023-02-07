@@ -1,0 +1,146 @@
+.contacts-block {
+  //min-height: 80vh;
+  border-bottom: 1px solid white;
+  padding: 50px 0;
+}
+
+.contacts {
+  flex-direction: column;
+  color: white;
+  min-height: 100vh;
+  justify-content: center;
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+}
+
+
+.about {
+  font-size: 25px;
+  font-style: italic;
+}
+
+.contact_icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-height: 88%;
+}
+
+.form {
+  padding: 30px;
+
+  .btn_wrapper {
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+      margin-right: 25px;
+      border-radius: 20px;
+      padding: 15px 40px;
+      border: 1px solid white;
+    }
+  }
+}
+
+.aboutInto {
+  display: flex;
+}
+
+.send {
+  padding: 10px 30px;
+  background-color: darkgray;
+  margin-right: 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  position: relative;
+
+  &::after {
+    content: 'I’m sure';
+    font-weight: bold;
+    color: transparent;
+    position: absolute;
+    width: 50%;
+    height: 0;
+    border-radius: 20px;
+    background-color: #4e93e6;
+    bottom: 0;
+    transition: all .2s ease-in-out;
+    left: 25%;
+    z-index: 1;
+  }
+
+  &:hover {
+    text-decoration: none;
+    transition: all .3s ease-in-out 0s;
+
+    &::after {
+      color: black;
+      width: 100%;
+      height: 100%;
+      transition: all .3s ease-in-out 0s;
+      border: 1px solid black;
+      left: -1px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+
+//Media
+@media screen and (max-width: 1236px) {
+  .photo {
+    img {
+      width: 300px;
+      height: 300px;
+    }
+  }
+  .name {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .contact_icons {
+    display: none;
+  }
+
+  .contacts__wrapper {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .contactsContainer {
+    display: block;
+    text-align: center;
+  }
+  .contact_wrapper {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .aboutInto {
+    flex-wrap: wrap;
+  }
+  .form {
+    .btn_wrapper {
+      button {
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .title{
+    font-size: 40px;
+  }
+}
