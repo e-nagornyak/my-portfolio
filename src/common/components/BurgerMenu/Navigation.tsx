@@ -12,10 +12,10 @@ const variants = {
     }
 };
 
-export const Navigation = (props: any) => (
-    <motion.ul className={s.burger_ul} variants={variants}>
+export const Navigation = ({isOpen, toggle}: any) => (
+    <motion.ul style={{display: isOpen ? '' : 'none'}} className={s.burger_ul} variants={variants}>
         {itemIds.map(i => (
-            <MenuItem toggle={props.toggle} i={i.id} key={i.id} title={i.title} href={i.href}/>
+            <MenuItem toggle={toggle} i={i.id} key={i.id} title={i.title} href={i.href}/>
         ))}
     </motion.ul>
 );

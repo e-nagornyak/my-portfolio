@@ -40,7 +40,7 @@ export const BurgerMenu = () => {
             ref={containerRef}
         >
             <motion.div className={s.burger_background} variants={sidebar}/>
-            <Navigation toggle={toggleOpen}/>
+            <Navigation isOpen={isOpen} toggle={toggleOpen}/>
             <ToggleMenu toggle={() => toggleOpen()}/>
         </motion.nav>
     );
