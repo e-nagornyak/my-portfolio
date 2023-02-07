@@ -1,5 +1,6 @@
 {
   "name": "my-portfolio",
+  "homepage": "https://e-nagornyak.github.io/my-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,7 +14,7 @@
     "@types/react-dom": "^18.0.0",
     "@types/react-typing-effect": "^2.0.3",
     "framer-motion": "^9.0.1",
-    "gh-pages": "^4.0.0",
+    "gh-pages": "^5.0.0",
     "node-sass": "^8.0.0",
     "react": "^18.2.0",
     "react-awesome-reveal": "^4.2.3",
