@@ -2,7 +2,8 @@
 @import "../../../styles/sass/mixins";
 
 .wrapper {
-  margin: 5px 25px 20px 0;
+  margin-bottom: 20px;
+  width: 100%;
 
   .title {
     margin-left: 15px;
@@ -12,48 +13,28 @@
     color: $textAccent;
   }
 
-  input {
-    margin-top: 10px;
-    height: 30px;
-    background-color: rgba(255, 255, 255, 0.1);
-    width: 230px;
-    border: 1px solid white;
-    border-radius: 30px;
-    padding: 10px;
+
+}
+
+.message {
+  resize: vertical;
+  width: 95%;
+  min-height: 100px;
+  margin-top: 10px;
+  border-radius: 30px;
+  padding: 15px 0 15px 5%;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  &::placeholder {
     color: white;
+    font-size: 18px;
   }
 
-  .message {
-    resize: vertical;
-    width: 96%;
-    min-height: 100px;
-    margin-top: 10px;
-    border: 1px solid white;
-    border-radius: 30px;
-    padding: 10px;
-    color: white;
-    background-color: rgba(255, 255, 255, 0.1);
+  &:focus-visible {
+    outline: 3px double rgba(25, 118, 210, 1);
   }
 
-  .subject {
-    width: 96%;
-  }
 }
 
-@media screen and (max-width: 600px) {
-  .wrapper {
-    width: 100%;
 
-    input {
-      width: 103%;
-    }
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .wrapper{
-    div{
-      width: 110%;
-    }
-  }
-}

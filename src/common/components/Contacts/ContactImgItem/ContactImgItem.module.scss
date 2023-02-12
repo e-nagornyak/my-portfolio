@@ -1,7 +1,7 @@
 .wrapper {
   display: flex;
-  width: 20vh;
-  justify-content: space-between;
+  width: 25vh;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -20,7 +20,6 @@
   justify-content: center;
   width: 60px;
   height: 60px;
-  border: 2px solid;
   border-radius: 50%;
 
   img {

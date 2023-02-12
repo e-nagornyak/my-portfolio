@@ -22,14 +22,20 @@ export const Main: FC = () => {
                         <span>I am, </span>
                         <ReactTypingEffect className={s.accent_dev} text={'Frontend developer'}/>
                     </div>
-                    <p className={s.about}>From Ukraine, Kiev. I have rich experience in web design, also I am good at
-                        wordpress. I love to talk with you about our unique.</p>
+                    <p className={s.about}>Hello, I am a person who has a strong passion for programming that inspires
+                        me every day. I am responsible for assigned tasks. Furthermore, I have experience in creating
+                        SPA with React/Redux/TypeScript.
+                            <br/>
+                            <br/>
+                        There are no impossible tasks - there is a lack of time to solve them!</p>
                     <div className={s.btn_wrapper}>
-                        <button>DOWNLOAD CV</button>
+                        <a target={'_blank'} download={'avatarka.png'} href={avatar}>
+                            <button>DOWNLOAD CV</button>
+                        </a>
                         <p>MY SKILLS</p>
                     </div>
                 </div>
-                    <img className={s.photo} src={avatar} alt=""/>
+                <img className={s.photo} src={avatar} alt=""/>
             </div>
         </div>
     </Fade>

@@ -14,7 +14,7 @@ export const MyProjects = () => {
     return <Fade delay={100} triggerOnce direction={"up"} damping={0.2}>
         <div className={styles.myProjectsBlock} id={"my-works"}>
             <div className={`${styleContainer.container} ${styles.myProjectsContainer}`}>
-                <Title title={'PROJECTS'}/>
+                <Title title={'MY WORKS'}/>
                 <div className={styles.project}>
                     <Project
                         style={socialNetwork}
@@ -28,7 +28,7 @@ export const MyProjects = () => {
                     />
                     <Project
                         style={todolist}
-                        title={'Todolist'}
+                        title={'Cards game'}
                         description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, iusto?"}
                     />
                 </div>

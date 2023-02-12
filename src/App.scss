@@ -1,0 +1,41 @@
+.App {
+  background-color: rgba(47, 57, 86, 0.45);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.refresh {
+  padding: 10px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.MuiTextField-root {
+  color: white;
+}
+
+.MuiInputBase-root {
+  border-radius: 25px !important;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  input {
+    color: white;
+  }
+
+}
+
+.MuiFormLabel-root {
+  color: white !important;
+  border-radius: 25px !important;
+}

@@ -32,14 +32,15 @@
 
 .form {
   padding: 30px;
+  min-width: 35vw;
 
   .btn_wrapper {
     display: flex;
     justify-content: flex-end;
 
     button {
-      margin-right: 25px;
       border-radius: 20px;
+      margin-top: 15px;
       padding: 15px 40px;
       border: 1px solid white;
     }
@@ -48,6 +49,7 @@
 
 .aboutInto {
   display: flex;
+  gap: 10px;
 }
 
 .send {
@@ -57,6 +59,14 @@
   cursor: pointer;
   text-transform: uppercase;
   position: relative;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
+  transition: all .1s ease-in 0.1s;
+
+  &:active {
+    transform: translate(0, 10px);
+    clip-path: inset(-20% 0 13% 0 round 10px);
+  }
+
 
   &::after {
     content: 'I’m sure';
@@ -130,17 +140,10 @@
   .aboutInto {
     flex-wrap: wrap;
   }
-  .form {
-    .btn_wrapper {
-      button {
-        margin: 0;
-      }
-    }
-  }
 }
 
 @media screen and (max-width: 355px) {
-  .title{
+  .title {
     font-size: 40px;
   }
 }
