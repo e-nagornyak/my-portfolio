@@ -5,7 +5,7 @@ import avatar from '../../../assets/image/avatar.png'
 import {Fade} from "react-awesome-reveal";
 import ReactTypingEffect from "react-typing-effect";
 import {Particle} from "../../Particle";
-
+import cv2 from '../../../assets/CV2.png'
 
 export const Main: FC = () => {
     return <Fade cascade direction={"down"} triggerOnce damping={0.2}>
@@ -29,7 +29,7 @@ export const Main: FC = () => {
                             <br/>
                         There are no impossible tasks - there is a lack of time to solve them!</p>
                     <div className={s.btn_wrapper}>
-                        <a target={'_blank'} download={'avatarka.png'} href={avatar}>
+                        <a target={'_blank'} download={'CV-E.N.pdf'} href={cv2}>
                             <button>DOWNLOAD CV</button>
                         </a>
                         <p>MY SKILLS</p>
