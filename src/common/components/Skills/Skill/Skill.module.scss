@@ -10,6 +10,11 @@
   margin: 7px;
   color: white;
   box-shadow: 1px 1px 9px #1111118c;
+  cursor: pointer;
+
+  &:hover {
+    background-color: lighten(#2C304A7F, 3%);
+  }
 }
 
 .title {
