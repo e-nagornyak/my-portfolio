@@ -62,35 +62,34 @@ export const SKILLS: SkillPropsType[] = [
     },
     {
         title: "tailwindcss",
-        img: 'https://github.com/devicons/devicon/tree/master/icons/tailwindcss',
+        img: 'https://github.com/devicons/devicon/raw/master/icons/tailwindcss/tailwindcss-plain.svg',
     },
-
     {
         title: "GIT",
         img: 'https://github.com/devicons/devicon/raw/master/icons/git/git-original.svg',
     },
     {
         title: "gitlab",
-        img: 'https://github.com/devicons/devicon/blob/master/icons/gitlab/gitlab-original.svg',
+        img: 'https://github.com/devicons/devicon/raw/master/icons/gitlab/gitlab-original.svg',
     },
     {
         title: "docker",
-        img: 'https://github.com/devicons/devicon/blob/master/icons/docker/docker-original.svg',
+        img: 'https://github.com/devicons/devicon/raw/master/icons/docker/docker-original.svg',
     },
     {
         title: "Gulp",
-        img: 'https://github.com/devicons/devicon/blob/master/icons/gulp/gulp-plain.svg',
+        img: 'https://github.com/devicons/devicon/raw/master/icons/gulp/gulp-plain.svg',
     },
     {
         title: "yarn",
-        img: 'https://github.com/devicons/devicon/tree/master/icons/yarn',
+        img: 'https://github.com/devicons/devicon/raw/master/icons/yarn/yarn-original.svg',
     },
     {
         title: "eslint",
-        img: 'https://github.com/devicons/devicon/tree/master/icons/eslint/eslint-original.svg',
+        img: 'https://github.com/devicons/devicon/raw/master/icons/eslint/eslint-original.svg',
     },
     {
         title: "figma",
-        img: 'https://github.com/devicons/devicon/tree/master/icons/figma/figma-original.svg',
+        img: 'https://github.com/devicons/devicon/raw/master/icons/figma/figma-original.svg',
     },
 ]
