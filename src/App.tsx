@@ -16,7 +16,7 @@ export const App = () => {
         setLoading(false)
     }, [setLoading])
 
-    if (true) {
+    if (loading) {
         return <div className="App loading">
             <span className="loader"></span>
         </div>
