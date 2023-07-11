@@ -171,9 +171,11 @@
   .text {
     margin-left: 10px;
     padding-bottom: 40px;
+    height: auto;
   }
   .mainBlock {
-    min-height: 95vh;
+    align-items: flex-start;
+    min-height: 100vh;
 
     &:before {
       left: 3%;
