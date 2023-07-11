@@ -22,10 +22,15 @@ export const Main: FC = () => {
                         <span>I am, </span>
                         <ReactTypingEffect className={s.accent_dev} text={'Frontend developer'}/>
                     </div>
-                    <p className={s.about}>Hello, I am a person who has a strong passion for programming that inspires
-                        me every day. I am responsible for assigned tasks. Furthermore, I have experience in creating
-                        SPA with React/Redux/TypeScript.
-                            <br/>
+                    <p className={s.about}>Hi, I'm front-end developer with 1.7 years of experience building
+                        SPA and SSR using React-Redux/RTK, Next and TypeScript.
+                        Knowledgeable in user interface, testing, and debugging
+                        processes. Able to effectively self-manage during independent
+                        projects, as well as collaborate in a team setting. Eager to learn
+                        new technologies (Node.js) and develop myself on a daily basis. If
+                        you have any suggestions, projects, or even if you want to say
+                        Hello.
+                        <br/>
                             <br/>
                         There are no impossible tasks - there is a lack of time to solve them!</p>
                     <div className={s.btn_wrapper}>

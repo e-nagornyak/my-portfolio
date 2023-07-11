@@ -1,11 +1,12 @@
 import React, {FC} from 'react'
-import styles from './Skill.module.scss';
 import Tilt from 'react-parallax-tilt';
 
-type SkillPropsType = {
+import styles from './Skill.module.scss';
+
+export type SkillPropsType = {
     img: string
     title: string
-    description: string
+    description?: string
     subtitle?: string
 }
 
