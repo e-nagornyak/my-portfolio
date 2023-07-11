@@ -33,7 +33,6 @@
     background-repeat: no-repeat;
     margin-bottom: 15px;
 
-
     .viewBtn {
       text-decoration: none;
       padding: 10px 20px;
@@ -42,6 +41,14 @@
       position: relative;
       z-index: 1;
       color: $textColor;
+      transition: transform ease-in 0.1s;
+
+      &:hover {
+        box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+        filter: drop-shadow(0 0 0 #15111a);
+        transform: translate(0, -5px);
+        clip-path: inset(0% 0 0% 0 round 10px);
+      }
     }
   }
 
@@ -51,6 +58,7 @@
 
     .projectTitle {
       @include text('Jost', 20px, 700, 1.8);
+      text-transform: uppercase;
       margin: 0 0 5px;
     }
     .description {

@@ -1,11 +1,12 @@
 import React, {FC} from 'react'
+
 import s from './Project.module.scss';
 
-type ProjectPropsType = {
+export type ProjectPropsType = {
     title: string
-    description: string
-    style: object
-    href?: string
+    href: string
+    description?: string
+    style?: object
 }
 
 export const Project: FC<ProjectPropsType> = ({title, description, style, href}) => {
