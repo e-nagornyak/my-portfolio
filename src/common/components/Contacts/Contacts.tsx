@@ -64,7 +64,7 @@ export const Contacts: FC = () => {
                                         img={home}/>
                         <ContactImgItem title={'Email'} subTitle={'dolkiv@gmail.com'}
                                         img={email}/>
-                        <ContactImgItem title={'Phone'} subTitle={'+380976133311'}
+                        <ContactImgItem title={'Phone'} subTitle={'+380973333333'}
                                         img={phone}/>
                     </div>
                     <form onSubmit={handleSubmit(onSubmit)} className={s.form}>
